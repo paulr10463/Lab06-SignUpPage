@@ -1,0 +1,86 @@
+/* Estilos CSS para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 20px;
+  }
+  
+  .form-group {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-group .form-label label{
+    padding: 0px 10px;
+  }
+
+  .form-label {
+    width: 200px;
+    font-weight: bold;
+  }
+  
+.form-input-checkbox {
+    width: 100%;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .form-input {
+    flex: 1;
+  }
+  
+  .form-input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-button {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .form-button input {
+    padding: 10px 0px;
+    background-color: #38a438;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+  }
+
+  .form-button input:hover {
+    background-color: #4cb84c;
+  }
+  
+  .icon-pages {
+    width: 18px;
+    padding: 2.5px;
+    border: solid;
+    border-color: #38a438;
+    background-color: #38a438;
+  }
